@@ -22,7 +22,7 @@
     
     <body>
         <p>
-            <jsp:include page="chooseLanguage.jsp" />
+            <jsp:include page="WEB-INF/chooseLanguage.jsp" />
         </p>
         <fmt:bundle basename="com.store.MessagesBundle">
         <h1>
@@ -30,7 +30,7 @@
         </h1>
         <p>
             <fmt:message key="Products_line"  />
-            <a href='products.jsp'>
+            <a href='ProductServlet'>
             <fmt:message key="Products"  /></a>
         </p>
             
